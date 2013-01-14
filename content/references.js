@@ -17,7 +17,7 @@ references_content =
 					[
 						"Computer Science Office: (734)487-1063",
 						"<span class='email'>mzeiger@emich.edu</span>",
-						"Computer Science Dept., 305 Hoyt",
+						"Computer Science Dept., 511 Pray-Harrold",
 						"Eastern Michigan University, Ypsilanti, MI 48197"
 					]
 				}, 
@@ -31,7 +31,7 @@ references_content =
 					[
 						"Computer Science Office: (734)487-1063",
 						"<span class='email'>shaynes@emich.edu</span>",
-						"Computer Science Dept., 305 Hoyt",
+						"Computer Science Dept., 511 Pray-Harrold",
 						"Eastern Michigan University, Ypsilanti, MI 48197"
 					]
 				}, 
@@ -45,7 +45,7 @@ references_content =
 					[
 						"Computer Science Office: (734)487-1063",
 						"<span class='email'>wsverdlik@emich.edu</span>",
-						"Computer Science Dept., 305 Hoyt",
+						"Computer Science Dept., 511 Pray-Harrold",
 						"Eastern Michigan University, Ypsilanti, MI 48197"
 					]
 				}
@@ -61,26 +61,26 @@ references_content =
 					"name": "Steve Dotson",
 					"dates": "",
 					"location": "Director of Technology Support, College of Arts and Sciences, Eastern Michigan University",
-					"focus": "Immediate Supervisor, March 2008 to Present",
+					"focus": "Immediate Supervisor, March 2008 to June 2010",
 					"details": 
 					[
 						"Office: (734)487-2538",
 						"<span class='email'>pdotson@emich.edu</span>",
-						"C.A.S. Dean's Office, 202 Bowen",
+						"C.A.S. Technology Support, 517 Pray-Harrold",
 						"Eastern Michigan University, Ypsilanti, MI 48197"
 					]
 				}, 
 				{
-					"show": true,
+					"show": false,
 					"name": "Mike Drumm",
 					"dates": "",
 					"location": "Technology Support, College of Arts and Sciences, Eastern Michigan University",
-					"focus": "Co-worker, May 2008 to Present",
+					"focus": "Co-worker, May 2008 to June 2010",
 					"details": 
 					[
 						"Office: (734)487-5135, Mobile: (734)276-1598",
 						"<span class='email'>mdrumm1@emich.edu</span>",
-						"C.A.S. Technology Support, 206 Bowen",
+						"C.A.S. Technology Support, 517 Pray-Harrold",
 						"Eastern Michigan University, Ypsilanti, MI 48197"
 					]
 				}, 
@@ -89,15 +89,29 @@ references_content =
 					"name": "Dr. Wade Tornquist",
 					"dates": "",
 					"location": "Associate Dean, College of Arts and Sciences, Eastern Michigan University",
-					"focus": "Employer, March 2008 to Present",
+					"focus": "Employer, March 2008 to June 2010",
 					"details": 
 					[
-						"Office: (734)487-4349",
+						"Office: (734)487-0354",
 						"<span class='email'>wtornquis@emich.edu</span>",
-						"C.A.S. Dean's Office, 202 Bowen",
+						"C.O.T. Dean's Office, 109 Sill Hall",
 						"Eastern Michigan University, Ypsilanti, MI 48197"
 					]
-				}
+				},
+				{
+					"show": true,
+					"name": "Jason Stiles",
+					"dates": "",
+					"location": "Development Manager, Systems In Motion",
+					"focus": "Manager, July 2010 - Present",
+					"details": 
+					[
+						"Office: (skype)jason.stiles.sim.aa, Mobile: (269)986-3561",
+						"<span class='email'>neosyler@gmail.com</span>",
+						"Systems In Motion, 3891 Ranchero Dr.",
+						"Ann Arbor, MI 48108"
+					]
+				}, 
 			]
 		}, //End prof. references
 	]//End Sections
