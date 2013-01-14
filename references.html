@@ -1,0 +1,173 @@
+
+<html>
+<head>
+
+	<!--<style type="text/css" media="all">
+		 @import "css/style.css";
+	</style>
+	@import url("options.css"); -->
+	
+	<link rel="stylesheet" type="text/css" href="css/resume.css"/>
+	<link rel="stylesheet" type="text/css" href="css/options.css"/>
+	<link id="printSS" rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+
+	<script type="text/javascript" src="script/create_resume.js"></script>
+
+<script>
+
+resume_data = 
+{
+	"header": 
+	{
+		"name":	"Andrew D. Benson",
+		"credentials": "",
+		"contact": 
+		{
+			"email": "drew@adbenson.net",
+			"phone": "(734)709-5496",
+			"address": "2840 International Dr Apt 424",
+			"address2": "Apt 424",
+			"location": "Eastern Michigan University"
+		},
+		"title": "A skilled, driven, and highly professional software developer"
+	}, //End Header
+	"sections": 
+	[
+		{	
+			"show": true,
+			"name": "Academic References",
+			"subsections": 
+			[
+				{
+					"show": true,
+					"name": "Dr. Mike Zeiger",
+					"dates": "",
+					"location": "Professor of Computer Science, Eastern Michigan University",
+					"focus": "Undergraduate Advisor, Professor of Automata & Languages",
+					"details": 
+					[
+						"Computer Science Office: (734)487-1063",
+						"<span class='email'>mzeiger@emich.edu</span>",
+						"Computer Science Dept., 305 Hoyt",
+						"Eastern Michigan University, Ypsilanti, MI 48197"
+					]
+				}, 
+				{
+					"show": true,
+					"name": "Dr. Susan Haynes",
+					"dates": "",
+					"location": "Professor of Computer Science, Eastern Michigan University",
+					"focus": "Advisor to GLIF project, Professor of Compiler Construction",
+					"details": 
+					[
+						"Computer Science Office: (734)487-1063",
+						"<span class='email'>shaynes@emich.edu</span>",
+						"Computer Science Dept., 305 Hoyt",
+						"Eastern Michigan University, Ypsilanti, MI 48197"
+					]
+				}, 
+				{
+					"show": true,
+					"name": "Dr. William Sverdlik",
+					"dates": "",
+					"location": "Professor of Computer Science, Eastern Michigan University",
+					"focus": "Advisor to ReaLC3 project, Professor of Programming",
+					"details": 
+					[
+						"Computer Science Office: (734)487-1063",
+						"<span class='email'>wsverdlik@emich.edu</span>",
+						"Computer Science Dept., 305 Hoyt",
+						"Eastern Michigan University, Ypsilanti, MI 48197"
+					]
+				}
+			]
+		}, //End acad. references
+		{	
+			"show": true,
+			"name": "Professional References",
+			"subsections": 
+			[
+				{
+					"show": true,
+					"name": "Steve Dotson",
+					"dates": "",
+					"location": "Director of Technology Support, College of Arts and Sciences, Eastern Michigan University",
+					"focus": "Immediate Supervisor, March 2008 to Present",
+					"details": 
+					[
+						"Office: (734)487-2538",
+						"<span class='email'>pdotson@emich.edu</span>",
+						"C.A.S. Dean's Office, 202 Bowen",
+						"Eastern Michigan University, Ypsilanti, MI 48197"
+					]
+				}, 
+				{
+					"show": true,
+					"name": "Mike Drumm",
+					"dates": "",
+					"location": "Technology Support, College of Arts and Sciences, Eastern Michigan University",
+					"focus": "Co-worker, May 2008 to Present",
+					"details": 
+					[
+						"Office: (734)487-5135, Mobile: (734)276-1598",
+						"<span class='email'>mdrumm1@emich.edu</span>",
+						"C.A.S. Technology Support, 206 Bowen",
+						"Eastern Michigan University, Ypsilanti, MI 48197"
+					]
+				}, 
+				{
+					"show": true,
+					"name": "Dr. Wade Tornquist",
+					"dates": "",
+					"location": "Associate Dean, College of Arts and Sciences, Eastern Michigan University",
+					"focus": "Employer, March 2008 to Present",
+					"details": 
+					[
+						"Office: (734)487-4349",
+						"<span class='email'>wtornquis@emich.edu</span>",
+						"C.A.S. Dean's Office, 202 Bowen",
+						"Eastern Michigan University, Ypsilanti, MI 48197"
+					]
+				}
+			]
+		}, //End prof. references
+	]//End Sections
+};//End Resume Data
+
+
+function clickPrint() {
+	document.getElementById("printSS").setAttribute("media", "all")
+}
+</script>
+
+</head>
+<body onLoad="create_resume();">
+
+<div id="dropdown">
+	<a href="javascript:clickPrint();">
+		<span class="icon">
+			<img title="Print" alt="Print" src="img/printer.png">
+		</span>
+	</a>
+	<br />
+	<a href="adbenson-references.pdf">
+		<span class="icon">
+			<img title="Open as PDF" alt="Open as PDF" src="img/pdficon_large.gif">
+		</span>
+	</a>
+	<br />
+<!--	<a href="adbenson-references.doc">
+		<span class="icon">
+			<img title="Open as Word Doc" alt="Open as Word Doc" src="img/worddoc.png">
+		</span>
+	</a>
+-->
+</div>
+
+<div id="page_border"></div>
+<div id="resume"></div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+div#dropdown {
+	display: none;
+}
+
+div#page_frame {
+/*	position: absolute;
+	width: 8.5in;
+	left: 0;
+	margin: 0px;
+	*/
+	margin-top: 0;
+	z-index: -9;
+	
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+div.page {
+	border: none;
+*/	margin: 0in;
+	padding: 1in;
+	width: 6.5in;
+	height: 9in;
+	*/
+}
+
+div.header.small {
+/*	position: relative;
+	top: +0in;
+	width: 6.5in;
+	*/
+}
+

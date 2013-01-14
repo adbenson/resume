@@ -1,0 +1,65 @@
+div#dropdown {
+	font-size: 0.9em;
+	background: hsla(45, 81%, 50%, 0.5);
+
+	top: 0px;
+	left: 0px;
+	
+	border-width: 0 thin thin 0;
+	border-color: rgba(0, 0, 0, 0.4);
+	border-style: solid;
+
+	opacity: 1;
+	
+	border-bottom-right-radius: 0.5em;
+	box-shadow: 0 0 1em 1em #000;
+	
+	-webkit-border-bottom-right-radius: 0.5em;
+	-webkit-box-shadow: 0 0 0.25em .025em #888888;
+	
+	-moz-border-radius: 0em 0em 0.5em 0em;
+	-moz-box-shadow: 0 0 0.25em 0.25em #888888;
+}
+
+#dropdown a {
+	text-decoration: none;
+}
+#dropdown span{
+	text-decoration: none;
+}
+#dropdown img{
+	text-decoration: none;
+	border: none;
+}
+
+#dropdown a:hover img{
+	background: #FFEAB2;
+	box-shadow: 0 0 0.3em .3em #FFEAB2;
+	border-radius: 0.25em;
+	
+	-webkit-box-shadow: 0 0 0.3em .3em #FFEAB2;
+	-webkit-border-radius: 0.25em;
+	
+	-moz-box-shadow: 0 0 0.3em .3em #FFEAB2;
+	-moz-border-radius: 0.25em;
+}
+
+.icon img{
+	margin-top: 0.25em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	margin-bottom: 0em;
+	width: 32px;
+	height: 32px;
+}
+
+#dropdown span.text {
+	font-variant: small-caps;
+
+	letter-spacing: 0.3em;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+	margin-right: 0.25em;
+	padding: 0px;
+	float: right;
+}

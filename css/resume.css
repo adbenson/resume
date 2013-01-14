@@ -1,0 +1,169 @@
+body {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	padding: 0;
+	margin: 0;
+	top: 0px;
+}
+
+div#page_frame {
+	position: absolute;
+	width: 8.5in;
+	left: 50%;
+	margin-left: -4.25in;
+	margin-top: 0.5in;
+	top: 0px;
+	z-index: -9;
+	
+	box-shadow: 0 0 10em 0em #000;
+	-webkit-box-shadow: 0 0 10em 0em #888888;
+	-moz-box-shadow: 0 0 10em 0em #888888;
+}
+
+div.page {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.95in;
+
+	z-index: +9;
+	
+	height: 9in;
+	border: thin solid black;
+}
+
+div#pg2 {
+	display: none;
+}
+
+div#resume{
+	width: 6.4in;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1in;
+	margin-top: 0in;
+	z-index: +9;
+}
+
+div.header {
+	/*padding: 0.25em;	*/
+	position: relative;
+	/*top: -0.25em;*/
+}
+
+div.header.small {
+	position: absolute;
+	top: +11.25in;
+		left: +0.5in;
+	width: 7.5in;
+
+}
+div.header.small .address {
+	display: none;
+}
+div.header.small .location {
+	display: none;
+}
+
+div.header .name {
+	font-variant: small-caps;
+	font-size: 16pt;
+	letter-spacing: 0.15em;
+	font-weight: bold;
+}
+
+div.header.small .name {
+	font-size: 14pt;
+}
+
+div.title {
+	font-style: italic;
+	font-size: 14pt;
+}
+span.credentials {
+	font-size: 8pt;
+	margin-left: 1em;
+}
+div.header .container {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	line-height: 100%;
+}
+div.header .contact {
+	font-size: 9pt;
+	float: right;
+}
+div.header .email {
+	float: none;
+	margin-right: 1em;
+}
+.email {
+	font-family: monospace;
+}
+.phone {
+}
+
+div.section {
+	border-color: black;
+	border-style: none;
+	border-width: 0 0 thin thin;
+}
+
+div.section .header {
+	font-size: 16pt;
+	font-variant: small-caps;
+	letter-spacing: 0.15em;
+	font-weight: bold;
+	/*line-height: 98%;*/
+/*	margin-top: 0.5em;*/
+}
+
+div.subsection {
+	margin-left: .25in;
+	margin-bottom: 0.25em;
+	font-size: 10pt;
+}
+div.subheader .name{
+	font-size: 12pt;
+	font-weight: bold;
+}
+div.subheader .location {
+	font-size: 10pt;
+	margin-left:1em;
+	font-style: italic;
+}
+div.subheader .dates {
+	font-size: 10pt;
+	float: right;
+}
+div.subsection .focus {
+	font-weight: bold;
+	margin-left: 0em;
+	margin-left: 0.20in;
+	margin-top: 0.0em;
+}
+
+div.details {
+	margin-left: 0.25in;
+	font-size: 10pt;
+}
+ul.details {
+	list-style-position: inside;
+	margin: 0em;
+	padding-left: 0.25in;
+	list-style: none;
+	text-indent: -0.25in;
+	line-height: 145%;
+}
+
+ul.details li:before {
+	content: "\00BB \0020";
+}
+
+.note {
+	font-size: 10pt; 
+	font-weight: normal;
+	font-style: italic;
+	float: right;
+}
+
+

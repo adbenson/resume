@@ -1,0 +1,122 @@
+
+<html>
+<head>
+
+	<link rel="shortcut icon" href="../favicon.ico" >
+
+	<!--<style type="text/css" media="all">
+		 @import "css/style.css";
+	</style>
+	@import url("options.css"); -->
+		
+	<link rel="stylesheet" type="text/css" href="css/resume.css"/>
+	<link rel="stylesheet" type="text/css" href="css/options.css"/>
+	<link id="printSS" rel="stylesheet" type="text/css" media="print" href="css/print.css" />
+	
+	<script type="text/javascript" src="content/header.js"></script>	
+	<script type="text/javascript" src="content/resume.js"></script>
+	<script type="text/javascript" src="content/references.js"></script>
+
+	<script type="text/javascript" src="script/populate_content.js"></script>
+	
+	<script type="text/javascript" src="script/popup.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/popup.css"/>
+
+<script>
+var resume = {
+	"content":	resume_content,
+	"icon":	"references.png",
+	"alt":	"View References",
+	"docs": [
+		{
+			"icon": "pdficon_large.gif",
+			"alt": "Open Resume as PDF",
+			"href": "adbenson.pdf"
+		},
+		{
+			"icon": "worddoc.png",
+			"alt": "Open Resume as Word Doc",
+			"href": "adbenson.rtf"
+		}
+	]
+};
+
+var references = {
+	"content":	references_content,
+	"icon":	"resume.png",
+	"alt":	"Return to Resume",
+	"docs": [
+		{
+			"icon": "pdficon_large.gif",
+			"alt": "Open Resume as PDF",
+			"href": "adbenson.pdf"
+		},
+		{
+			"icon": "worddoc.png",
+			"alt": "Open Resume as RTF",
+			"href": "adbenson.rtf"
+		}
+	]
+}
+
+var view = resume;
+
+function clickPrint() {
+	document.getElementById("printSS").setAttribute("media", "all");
+	
+}
+
+function toggleView() {
+	view = (view == resume) ? references : resume;
+	
+	icon = document.getElementById("toggleIcon");
+	icon.setAttribute("src", "img/"+view.icon);
+	icon.setAttribute("alt", view.alt);
+	icon.setAttribute("title", view.alt);
+	
+	populate_content();
+}
+
+</script>
+
+</head>
+<body onLoad="populate_content()">
+
+<div id="dropdown">
+	<a href="javascript:clickPrint();">
+		<span class="icon">
+			<img title="Print View" alt="Print View" src="img/printer.png">
+		</span>
+	</a>
+	<br />
+	<a href="adbenson.pdf">
+		<span class="icon">
+			<img title="Open as PDF" alt="Open as PDF" src="img/pdficon_large.gif">
+		</span>
+	</a>
+	<br />
+	<a href="adbenson.doc">
+		<span class="icon">
+			<img title="Open as Word Doc" alt="Open as Word Doc" src="img/worddoc.png">
+		</span>
+	</a>
+	<hr />
+	<a href="javascript:toggleView()">
+		<span class="icon">
+			<img id="toggleIcon" title="View References" alt="View References" src="img/references.png">
+		</span>
+	</a>
+</div>
+
+<div id="page_frame">
+	<div id="pg1" class="page">
+	</div>
+	<div id="pg2" class="page">
+	</div>
+</div>
+
+
+
+
+</body>
+</html>
