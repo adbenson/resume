@@ -6,8 +6,8 @@ header_content =
 	{
 		"email": "drew@adbenson.net",
 		"phone": "(734)709-5496",
-		"address": "2840 International Dr Apt 424",
-		"address2": "Apt 424",
+		"address": "343 Edison Ave",
+		"address2": "",
 		"location": "Ypsilanti, MI 48197"
 	},
 	"title": "Creative, skilled, and driven software developer with professional experience"
