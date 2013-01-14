@@ -10,5 +10,5 @@ header_content =
 		"address2": "",
 		"location": "Ypsilanti, MI 48197"
 	},
-	"title": "Creative, skilled, and driven software developer with professional experience"
+	"title": "Creative, skilled, and driven software developer"
 };
