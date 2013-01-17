@@ -4,55 +4,6 @@ references_content =
 	[
 		{	
 			"show": true,
-			"name": "Academic References",
-			"subsections": 
-			[
-				{
-					"show": true,
-					"name": "Dr. Mike Zeiger",
-					"dates": "",
-					"location": "Professor of Computer Science, Eastern Michigan University",
-					"focus": "Undergraduate Advisor, Professor of Automata & Languages",
-					"details": 
-					[
-						"Computer Science Office: (734)487-1063",
-						"<span class='email'>mzeiger@emich.edu</span>",
-						"Computer Science Dept., 511 Pray-Harrold",
-						"Eastern Michigan University, Ypsilanti, MI 48197"
-					]
-				}, 
-				{
-					"show": true,
-					"name": "Dr. Susan Haynes",
-					"dates": "",
-					"location": "Professor of Computer Science, Eastern Michigan University",
-					"focus": "Advisor to GLIF project, Professor of Compiler Construction",
-					"details": 
-					[
-						"Computer Science Office: (734)487-1063",
-						"<span class='email'>shaynes@emich.edu</span>",
-						"Computer Science Dept., 511 Pray-Harrold",
-						"Eastern Michigan University, Ypsilanti, MI 48197"
-					]
-				}, 
-				{
-					"show": true,
-					"name": "Dr. William Sverdlik",
-					"dates": "",
-					"location": "Professor of Computer Science, Eastern Michigan University",
-					"focus": "Advisor to ReaLC3 project, Professor of Programming",
-					"details": 
-					[
-						"Computer Science Office: (734)487-1063",
-						"<span class='email'>wsverdlik@emich.edu</span>",
-						"Computer Science Dept., 511 Pray-Harrold",
-						"Eastern Michigan University, Ypsilanti, MI 48197"
-					]
-				}
-			]
-		}, //End acad. references
-		{	
-			"show": true,
 			"name": "Professional References",
 			"subsections": 
 			[
@@ -114,5 +65,54 @@ references_content =
 				}, 
 			]
 		}, //End prof. references
+		{	
+			"show": true,
+			"name": "Academic References",
+			"subsections": 
+			[
+				{
+					"show": true,
+					"name": "Dr. Mike Zeiger",
+					"dates": "",
+					"location": "Professor of Computer Science, Eastern Michigan University",
+					"focus": "Undergraduate Advisor, Professor of Automata & Languages",
+					"details": 
+					[
+						"Computer Science Office: (734)487-1063",
+						"<span class='email'>mzeiger@emich.edu</span>",
+						"Computer Science Dept., 511 Pray-Harrold",
+						"Eastern Michigan University, Ypsilanti, MI 48197"
+					]
+				}, 
+				{
+					"show": true,
+					"name": "Dr. Susan Haynes",
+					"dates": "",
+					"location": "Professor of Computer Science, Eastern Michigan University",
+					"focus": "Advisor to GLIF project, Professor of Compiler Construction",
+					"details": 
+					[
+						"Computer Science Office: (734)487-1063",
+						"<span class='email'>shaynes@emich.edu</span>",
+						"Computer Science Dept., 511 Pray-Harrold",
+						"Eastern Michigan University, Ypsilanti, MI 48197"
+					]
+				}, 
+				{
+					"show": true,
+					"name": "Dr. William Sverdlik",
+					"dates": "",
+					"location": "Professor of Computer Science, Eastern Michigan University",
+					"focus": "Advisor to ReaLC3 project, Professor of Programming",
+					"details": 
+					[
+						"Computer Science Office: (734)487-1063",
+						"<span class='email'>wsverdlik@emich.edu</span>",
+						"Computer Science Dept., 511 Pray-Harrold",
+						"Eastern Michigan University, Ypsilanti, MI 48197"
+					]
+				}
+			]
+		} //End acad. references
 	]//End Sections
 };//End Resume Data
