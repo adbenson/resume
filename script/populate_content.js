@@ -102,7 +102,7 @@ function createSubsections(subsections_data) {
 			if (subsection_data.foci) {
 				for (var f=0; f<subsection_data.foci.length; f++) {
 					var focus = subsection_data.foci[f];
-					if (focus.show == undefined || focus.show == "true") {
+					if (focus.show == undefined || focus.show == true) {
 						subsection.appendChild(createDiv({"txt":focus.heading,"cn":"focus"}));
 						subsection.appendChild(createDetails(focus.details));
 					}
