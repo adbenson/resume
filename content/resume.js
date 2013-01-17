@@ -3,12 +3,13 @@ resume_content =
 	"sections": 
 	[
 		{
+			"show": true,
 			"name": "Objective",
 			"subsections": 
 			[
 				{
 					"show": true,
-					"focus": "To pursue a career and build experience in software development at a creative company.",
+					"focus": "To do amazing work with awesome people.",
 				}
 			]
 		}, //End Career Objectives 
@@ -27,8 +28,7 @@ resume_content =
 							"heading": "Bachelor of Science<span class='note'>Major in Applied Computer Science, Minor in Theatre Arts</span>",
 							"details": 
 							[
-								"<b>Current GPA: 3.99<b/>",
-								"Graduating <i>Summa Cum Laude</i> in June 2011"
+								"Graduated <i>Summa Cum Laude</i> with a GPA of 3.99"
 							]
 						},
 						{
@@ -95,8 +95,38 @@ resume_content =
 			[
 				{
 					"show": true,
+					"name": "Systems In Motion",
+					"dates": "July 2010 - Present",
+					"address": "3891 Ranchero Dr. Ann Arbor, MI 48108",
+					"location": "Ann Arbor, MI",
+					"foci": 
+					[
+						{	
+							"show": true,
+							"heading": "Lead Developer",
+							"details":
+							[
+								"Design and Implement solutions for client projects.",
+								"Plan project iterations by breaking down tasks and estimating hours.",
+								"Oversee development and ensure code quality through coaching, tests, and code review."
+							]
+						},
+						{
+							"show": true,
+							"heading": "Notable Accomplishments",
+							"details":
+							[
+								"Delivered multiple projects as lead developer to great customer satisfaction.",
+								"Presented many seminars on areas of expertise including RegEx and Java Generics.",
+								"Earned a reputation and recognition for passion, knowledgeability, quality, and delivery."
+							]
+						}
+					]
+				},
+				{
+					"show": true,
 					"name": "E.M.U. College of Arts and Sciences",
-					"dates": "March 2008 - Present",
+					"dates": "March 2008 - June 2010",
 					"address": "202 Bowen, W. Circle Dr, Eastern Michigan University",
 					"location": "Ypsilanti, MI",
 					"foci": 
@@ -105,9 +135,9 @@ resume_content =
 							"heading": "Technology Support Group",
 							"details":
 							[
-								"Support faculty and staff in both office and classroom multimedia technology.",
-								"Design and maintain support information websites.",
-								"Deploy and maintain departmental computer lab software and controls."
+								"Supported faculty and staff in both office and classroom multimedia technology.",
+								"Designed and maintained support information websites.",
+								"Deployed and maintained departmental computer lab software and controls."
 							]
 						},
 						{
@@ -136,7 +166,7 @@ resume_content =
 					]
 				}, 
 				{
-					"show": true,
+					"show": false,
 					"name": "Service Brands International",
 					"dates": "January 2002 - March 2004",
 					"address": "3948 Ranchero Dr",
@@ -169,14 +199,14 @@ resume_content =
 					"name": "Languages & Technologies",
 					"details": 
 					[
-						"Fluent in Java, Javascript, Perl, PHP, C/C++.",
+						"Fluent in Java, JavaScript, and PHP.",
 						"Object-oriented design and UML diagramming.",
 						"Graphical rendering and interfaces.",
 						"Cross-browser web design and CSS layouts.",
 					]
 				},
 				{
-					"show": true,
+					"show": false,
 					"name": "Specializations",
 					"details": 
 					[
@@ -190,6 +220,88 @@ resume_content =
 		}, //End Skills
 		{
 			"page_break": true,
+			"name": "Professional Projects",
+			"subsections":
+			[
+				{
+					"show": true,
+					"name": "Web Service Health Check Page",
+					"details":
+					[
+						"A powerful but easy-to-use site to verify the stability and integrity of multiple web services",
+						"Implemented in Java using Spring Web MVC framework on IBM WebSphere Portlet Server",
+						"Designed the entire project from mockup to proof-of-concept to working site",
+						"Employed heavy use of client-side AJAX and object-oriented JavaScript"
+					]
+				},
+				{
+					"show": true,
+					"name": "Tech Support Subscriptions Site",
+					"details":
+					[
+						"A multi-mode data-driven site for purchasing new subscription services",
+						"Implemented in Java using Spring Web MVC framework on IBM WebSphere Portlet Server",
+						"Lead a team of four developers to deliver on-time with no defects to great client satisfaction"
+					]
+				},
+				{
+					"show": true,
+					"name": "Subscription Services Bundling Site",
+					"details":
+					[
+						"A modern, customer-friendly site to renew multiple subscriptions with one click.",
+						"Implemented in Java using Spring Web MVC framework on IBM WebSphere Portlet Server",
+						"Built modular, well separated user interface in HTML, CSS, and JavaScript using JSP templates",
+						"Integrated with multiple SOAP and REST web services"
+					]
+				},
+				{
+					"show": true,
+					"name": "Best Buy Connect eCommerce Site",
+					"details":
+					[
+						"A LAMP stack eCommerce site for purchasing wireless devices",
+						"Implemented back-end REST client with enterprise transaction API",
+						"Observed strict security standards to defend against injection, XSS, CSRF, etc.",
+						"Observed compliance with PII and PCI standards for consumer privacy and security"
+					]
+				},
+				{
+					"show": false,
+					"name": "Interactive Classroom Multimedia Guide",
+					"details":
+					[
+						"A detailed interactive guide to assist anyone using classroom multimedia technology.",
+						"Implemented in HTML and JavaScript with CSS2/CSS3 and jQuery.",
+						"Clean separation between JavaScript and HTML to provide easy, human-readable editing.",
+						"Thoroughly backwards-compatible for viewing without JavaScript or CSS.",
+						"Stores and recalls the document state for easy continuation in the case of interruption."
+					]
+				},
+				{
+					"show": false,
+					"name": "EMU Classroom Space Website",
+					"details":
+					[
+						"Displays classroom photos and information to help faculty and staff adjust during a major campus transition.",
+						"Implemented in HTML and JavaScript with data stored in JSON format.",
+						"Displays photos and information in convenient, tree view with cross-browser compatibility."
+					]
+				},
+				{
+					"show": false,
+					"name": "EMU Undergraduate Symposium 2011 Photo Gallery",
+					"details":
+					[
+						"Displays photos from the Symposium in a clean, paginated gallery.",
+						"Implemented in PHP with MySQL database.",
+						"Supports multiple galleries, variable sizes and orientations, and photo titles and descriptions.",
+						"Provides easy navigation either page-by-page or photo-by-photo."
+					]
+				}
+			]
+		}, //End Professional Projects
+		{
 			"name": "Course Projects",
 			"subsections": 
 			[
@@ -218,7 +330,7 @@ resume_content =
 					]
 				},
 				{
-					"show": true,
+					"show": false,
 					"name": "Year of the Zombie",
 					"location": "COSC 457 Computer Game Programming",
 					"focus": "Graphics & User Interface Developer",
@@ -262,45 +374,6 @@ resume_content =
 					]
 				}
 			]
-		}, //End EC Projects
-		{
-			"name": "Professional Projects",
-			"subsections":
-			[
-				{
-					"show": true,
-					"name": "Interactive Classroom Multimedia Guide",
-					"details":
-					[
-						"A detailed interactive guide to assist anyone using classroom multimedia technology.",
-						"Implemented in HTML and Javascript with CSS2/CSS3 and jQuery.",
-						"Clean separation between Javascript and HTML to provide easy, human-readable editing.",
-						"Thoroughly backwards-compatible for viewing without Javascript or CSS.",
-						"Stores and recalls the document state for easy continuation in the case of interruption."
-					]
-				},
-				{
-					"show": true,
-					"name": "EMU Classroom Space Website",
-					"details":
-					[
-						"Displays classroom photos and information to help faculty and staff adjust during a major campus transition.",
-						"Implemented in HTML and Javascript with data stored in JSON format.",
-						"Displays photos and information in convenient, tree view with cross-browser compatibility."
-					]
-				},
-				{
-					"show": true,
-					"name": "EMU Undergraduate Symposium 2011 Photo Gallery",
-					"details":
-					[
-						"Displays photos from the Symposium in a clean, paginated gallery.",
-						"Implemented in PHP with MySQL database.",
-						"Supports multiple galleries, variable sizes and orientations, and photo titles and descriptions.",
-						"Provides easy navigation either page-by-page or photo-by-photo."
-					]
-				}
-			]
-		} //End Professional Projects
+		} //End EC Projects
 	]//End Sections
 };//End Resume Data
