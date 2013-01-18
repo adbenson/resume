@@ -96,7 +96,7 @@ resume_content =
 				{
 					"show": true,
 					"name": "Systems In Motion",
-					"dates": "July 2010 - Present",
+					"dates": "July 2011 - Present",
 					"address": "3891 Ranchero Dr. Ann Arbor, MI 48108",
 					"location": "Ann Arbor, MI",
 					"foci": 
@@ -126,7 +126,7 @@ resume_content =
 				{
 					"show": true,
 					"name": "E.M.U. College of Arts and Sciences",
-					"dates": "March 2008 - June 2010",
+					"dates": "March 2008 - June 2011",
 					"address": "202 Bowen, W. Circle Dr, Eastern Michigan University",
 					"location": "Ypsilanti, MI",
 					"foci": 
@@ -189,7 +189,7 @@ resume_content =
 					"name": "Professional",
 					"details": 
 					[
-						"Over five years professional experience in software and technology support.",
+						"Over six years professional experience in software and technology support.",
 						"Consistently earned a reputation for resourcefulness, responsibility, and geniality.",
 						"Substantial teamwork experience both as leader and team member."
 					]
@@ -228,10 +228,10 @@ resume_content =
 					"name": "Web Service Health Check Page",
 					"details":
 					[
-						"A powerful but easy-to-use site to verify the stability and integrity of multiple web services",
-						"Implemented in Java using Spring Web MVC framework on IBM WebSphere Portlet Server",
-						"Designed the entire project from mockup to proof-of-concept to working site",
-						"Employed heavy use of client-side AJAX and object-oriented JavaScript"
+						"A powerful but easy-to-use site to verify the stability and integrity of multiple web services.",
+						"Implemented in Java using Spring Web MVC framework on IBM WebSphere Portlet Server.",
+						"Designed the entire project from mockup to proof-of-concept to working site.",
+						"Employed heavy use of client-side AJAX and object-oriented JavaScript."
 					]
 				},
 				{
@@ -239,9 +239,9 @@ resume_content =
 					"name": "Tech Support Subscriptions Site",
 					"details":
 					[
-						"A multi-mode data-driven site for purchasing new subscription services",
-						"Implemented in Java using Spring Web MVC framework on IBM WebSphere Portlet Server",
-						"Lead a team of four developers to deliver on-time with no defects to great client satisfaction"
+						"A multi-mode data-driven site for purchasing new subscription services.",
+						"Implemented in Java using Spring Web MVC framework on IBM WebSphere Portlet Server.",
+						"Lead a team of four developers to deliver on-time with no defects to great client satisfaction."
 					]
 				},
 				{
@@ -250,9 +250,9 @@ resume_content =
 					"details":
 					[
 						"A modern, customer-friendly site to renew multiple subscriptions with one click.",
-						"Implemented in Java using Spring Web MVC framework on IBM WebSphere Portlet Server",
-						"Built modular, well separated user interface in HTML, CSS, and JavaScript using JSP templates",
-						"Integrated with multiple SOAP and REST web services"
+						"Implemented in Java using Spring Web MVC framework on IBM WebSphere Portlet Server.",
+						"Built modular, well separated UI in HTML, CSS, and JavaScript using JSP templates.",
+						"Integrated with multiple SOAP and REST web services."
 					]
 				},
 				{
@@ -260,10 +260,10 @@ resume_content =
 					"name": "Best Buy Connect eCommerce Site",
 					"details":
 					[
-						"A LAMP stack eCommerce site for purchasing wireless devices",
-						"Implemented back-end REST client with enterprise transaction API",
+						"A LAMP stack eCommerce site for purchasing wireless devices.",
+						"Implemented back-end REST client with enterprise transaction API.",
 						"Observed strict security standards to defend against injection, XSS, CSRF, etc.",
-						"Observed compliance with PII and PCI standards for consumer privacy and security"
+						"Observed compliance with PII and PCI standards for consumer privacy and security."
 					]
 				},
 				{
