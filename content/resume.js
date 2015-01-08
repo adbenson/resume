@@ -241,6 +241,21 @@ resume_content =
 			[
 				{
 					"show": true,
+					"name": "Connection Signup Tool Front-End",
+					"details":
+					[
+						"A Rich front-end SPA to sign customers up for cable, broadband, etc.",
+						"Lead a of a team of 4 developers to rescue project from failing team.",
+						"Implemented in Javascript using Angular",
+						"Rescued project from failing team, progressed transition from homebrew framework to Angular.",
+						"Rich front-end SPA to sign customers up for cable, broadband, etc.",
+						"Rest maturity layer 3.",
+						"Unit tested using Jasmine and with automated end-to-end functional testing.",
+						"Angular 1.3, Jasmine testing, git, jQuery, Uniform.js, JSLint/JSHint.",
+					]
+				},
+				{
+					"show": false,
 					"name": "Web Service Health Check Page",
 					"details":
 					[
