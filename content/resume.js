@@ -239,6 +239,36 @@ resume_content =
 			]
 		}, //End Skills
 		{
+			"name": "Formative Reading",
+			"subsections": 
+			[
+				{
+					"show": true,
+					"name": "Books",
+					"foci":	
+					[
+						{
+							"heading": "Code Complete<span class='note'>Steve McConnel</span>"
+						},
+						{
+							"heading": "The Algorithm Design Manual<span class='note'>Steven S. Skiena</span>"
+						},
+						{
+							"heading": "Design Patterns<span class='note'>the &quot;Gang of Four&quot;, Gamma, Helm, Johnson, Vlissides</span>"
+						},
+						{
+							"heading": "The Art of Computer Programming, Vol. 1<span class='note'>Donald E. Knuth</span>",
+							"details": 
+								[
+									"I'll finish it someday!"
+								]
+						},
+						
+					]
+				}					
+			]
+		}, //End Reading
+		{
 			"page_break": true,
 			"name": "Professional Projects",
 			"subsections":
