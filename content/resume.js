@@ -41,7 +41,7 @@ resume_content =
 					"foci":	
 					[
 						{
-							"heading": "Bachelor of Science<span class='note'>Major in Applied Computer Science, Minor in Theatre Arts</span>",
+							"heading": "Bachelor of Science in Computer Science<span class='note'Minor in Theatre Arts</span>",
 							"details": 
 							[
 								"Graduated <i>Summa Cum Laude</i> with a GPA of 3.99"
