@@ -20,6 +20,22 @@ resume_content =
 				{
 					"show": true,
 					"name": "Eastern Michigan University",
+					"dates": "Fall 2014 to Present",
+					"location": "Ypsilanti, MI",
+					"foci":	
+					[
+						{
+							"heading": "Master of Science in Computer Science",
+							"details": 
+							[
+								"Running GPA of 4.0"
+							]
+						}
+					]
+				}, 
+				{
+					"show": true,
+					"name": "Eastern Michigan University",
 					"dates": "Class of 2011",
 					"location": "Ypsilanti, MI",
 					"foci":	
