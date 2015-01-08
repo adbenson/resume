@@ -48,6 +48,7 @@ resume_content =
 							]
 						},
 						{
+							"show": false,
 							"heading": "Notable Courses",
 							"details":
 							[
