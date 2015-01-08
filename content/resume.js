@@ -140,7 +140,7 @@ resume_content =
 					]
 				},
 				{
-					"show": true,
+					"show": false,
 					"name": "E.M.U. College of Arts and Sciences",
 					"dates": "March 2008 - June 2011",
 					"address": "202 Bowen, W. Circle Dr, Eastern Michigan University",
