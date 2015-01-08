@@ -124,8 +124,10 @@ resume_content =
 							"details":
 							[
 								"Design and Implement solutions for client projects.",
-								"Plan project iterations by breaking down tasks and estimating hours.",
-								"Oversee development and ensure code quality through coaching, tests, and code review."
+								"Architect solutions, provide estimates, and delegate tasks.",
+								"Oversee implementation and ensure code quality through coaching, tests, and code review.",
+								"Establish project standards and best practices.",
+								"Interface and negotiate with business and leadership on behalf of team."
 							]
 						},
 						{
