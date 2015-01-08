@@ -352,6 +352,21 @@ resume_content =
 					]
 				},
 				{
+					"show": true,
+					"name": "CastViewer",
+					"dates": "",
+					"location": "COSC 481W Software Engineering",
+					"focus": "Project Lead & Client Lead",
+					"details": 
+					[
+						"Web-based real-time data presentation for aluminum alloy production.",
+						"Implemented in REALbasic language using Real Studio Web Edition IDE & framework.",
+						"Demonstrated rigorous requirements, design, and testing.",
+						"Worked closely with the client to develop requirements and validate results at each stage."
+
+					]
+				},
+				{
 					"show": false,
 					"name": "Relation Analyzer",
 					"location": "COSC 314 Computational Discrete Structures",
