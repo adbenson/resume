@@ -218,7 +218,7 @@ resume_content =
 					"name": "Languages & Technologies",
 					"details": 
 					[
-						"Fluent in Java, JavaScript, and PHP.",
+						"Most fluent in Java, JavaScript, and PHP.",
 						"Object-oriented design and UML diagramming.",
 						"Graphical rendering and interfaces.",
 						"Cross-browser web design and CSS layouts.",
