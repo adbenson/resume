@@ -63,7 +63,6 @@ resume_content =
 							"details": 
 							[
 								"Undergraduate Symposium presenter in 2009 and 2010.",
-								"Dean's List, Fall 2007 through Winter 2011.",
 								"Computer Science Department Awards recipient: <i>Charlie Jones Award</i> (2009-2010),<br>"+
 									"<i>Clio Finlin Award</i> (2009-2010), <i>Addison Wesley Award : Graduating Senior</i> (2010-2011)."
 							]
