@@ -239,7 +239,7 @@ resume_content =
 			]
 		}, //End Skills
 		{
-			"name": "Formative Reading",
+			"name": "Influential Reading",
 			"subsections": 
 			[
 				{
