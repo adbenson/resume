@@ -222,6 +222,7 @@ resume_content =
 						"Object-oriented design and UML diagramming.",
 						"Graphical rendering and interfaces.",
 						"Cross-browser web design and CSS layouts.",
+						"jQuery, Spring, Angular, XML, CSS, Swing UI, git, SQL, "
 					]
 				},
 				{
