@@ -104,7 +104,9 @@ function createSubsections(subsections_data) {
 					var focus = subsection_data.foci[f];
 					if (focus.show == undefined || focus.show == true) {
 						subsection.appendChild(createDiv({"txt":focus.heading,"cn":"focus"}));
-						subsection.appendChild(createDetails(focus.details));
+						if (focus.details) {
+							subsection.appendChild(createDetails(focus.details));
+						}
 					}
 				}
 			}
