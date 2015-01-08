@@ -135,7 +135,8 @@ resume_content =
 							[
 								"Delivered multiple projects as lead developer to great customer satisfaction.",
 								"Presented many seminars on areas of expertise including RegEx and Java Generics.",
-								"Earned a reputation and recognition for passion, knowledgeability, quality, and delivery."
+								"Earned a reputation and recognition for passion, knowledgeability, quality, and delivery.",
+								"Progressed from trainee to senior developer in record time."
 							]
 						}
 					]
