@@ -126,7 +126,8 @@ resume_content =
 								"Architect solutions, provide estimates, and delegate tasks.",
 								"Oversee implementation and ensure code quality through coaching, tests, and code review.",
 								"Establish project standards and best practices.",
-								"Interface and negotiate with business and leadership on behalf of team."
+								"Interface and negotiate with business and leadership on behalf of team.",
+								"Performed over 70 
 							]
 						},
 						{
@@ -230,10 +231,15 @@ resume_content =
 					"name": "Specializations",
 					"details": 
 					[
-						"State Machines and data parsing",
+						"Regular Expressions",
 						"User interfaces, interaction, and communication",
-						"Technical writing and documentation"/*,
-						"Software demonstration and training",*/
+						"Object-oriented JavaScript",
+						"higher-order functional JavaScript"
+						"Technical writing and documentation",
+						"Java Generics",
+						"Java Swing UI",
+						"High-maturity REST",
+						"git"
 					]
 				}					
 			]
@@ -263,7 +269,9 @@ resume_content =
 									"I'll finish it someday!"
 								]
 						},
-						
+						{
+							"heading": "JavaScript: The Good Parts<span class='note'>Douglas Crockford</span>",
+						},
 					]
 				}					
 			]
@@ -280,10 +288,9 @@ resume_content =
 					[
 						"A Rich front-end SPA to sign customers up for cable, broadband, etc.",
 						"Lead a of a team of 4 developers to rescue project from failing team.",
-						"Implemented in Javascript using Angular",
+						"Implemented in JavaScript using Angular",
 						"Rescued project from failing team, progressed transition from homebrew framework to Angular.",
-						"Rich front-end SPA to sign customers up for cable, broadband, etc.",
-						"Rest maturity layer 3.",
+						"Interacted with backend using REST maturity level 3.",
 						"Unit tested using Jasmine and with automated end-to-end functional testing.",
 						"Angular 1.3, Jasmine testing, git, jQuery, Uniform.js, JSLint/JSHint.",
 					]
@@ -372,16 +379,13 @@ resume_content =
 			[
 				{
 					"show": true,
-					"name": "CastViewer",
+					"name": "Travelling Salesman",
 					"dates": "",
-					"location": "COSC 481W Software Engineering",
-					"focus": "Project Lead & Client Lead",
+					"location": "COSC xxx Artificial Intelligence"
 					"details": 
 					[
 						"Web-based real-time data presentation for aluminum alloy production.",
-						"Implemented in REALbasic language using Real Studio Web Edition IDE & framework.",
-						"Demonstrated rigorous requirements, design, and testing.",
-						"Worked closely with the client to develop requirements and validate results at each stage."
+						"Implemented in REALbasic language using Real Studio Web Edition IDE & framework."
 
 					]
 				},
