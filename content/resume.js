@@ -9,7 +9,7 @@ resume_content =
 			[
 				{
 					"show": true,
-					"focus": "To do amazing work with awesome people.",
+					"focus": "To do amazing work with awesome people!",
 				}
 			]
 		}, //End Career Objectives 
@@ -30,7 +30,16 @@ resume_content =
 							[
 								"Running GPA of 4.0"
 							]
-						}
+						},
+						{
+							"show": true,
+							"heading": "Notable Courses",
+							"details":
+							[
+								"Artificial Intelligence and Heuristic Programming",
+								"Database Management Systems Design"
+							]
+						},
 					]
 				}, 
 				{
@@ -41,7 +50,7 @@ resume_content =
 					"foci":	
 					[
 						{
-							"heading": "Bachelor of Science in Computer Science<span class='note'Minor in Theatre Arts</span>",
+							"heading": "Bachelor of Science in Computer Science <span class='note'>Minor in Theatre Arts</span>",
 							"details": 
 							[
 								"Graduated <i>Summa Cum Laude</i> with a GPA of 3.99"
@@ -68,7 +77,7 @@ resume_content =
 							]
 						},
 						{
-							"show": false,
+							"show": true,
 							"heading": "Notable Projects <span class='note'>See Course Projects section below for more information</span>",
 							"details":
 							[
@@ -111,7 +120,7 @@ resume_content =
 			[
 				{
 					"show": true,
-					"name": "Systems In Motion",
+					"name": "Nexient <i>(formerly </i>Systems In Motion<i>)</i>",
 					"dates": "July 2011 - Present",
 					"address": "3891 Ranchero Dr. Ann Arbor, MI 48108",
 					"location": "Ann Arbor, MI",
@@ -126,8 +135,19 @@ resume_content =
 								"Architect solutions, provide estimates, and delegate tasks.",
 								"Oversee implementation and ensure code quality through coaching, tests, and code review.",
 								"Establish project standards and best practices.",
-								"Interface and negotiate with business and leadership on behalf of team.",
-								"Performed over 70 
+								"Interface and negotiate with business and leadership on behalf of development team."
+							]
+						},
+						{	
+							"show": true,
+							"heading": "Training Coordinator",
+							"details":
+							[
+								"Developed intensive program for new developer training.",
+								"Led groups of four developers in learning both front-end and back-end practices.",
+								"Created new developer training curriculum from the ground up.",
+								"Topics of learning included agile development, git code management, unit testing.",
+								"Created surveys for developers and leads for tracking and measuring developer readiness"
 							]
 						},
 						{
@@ -138,7 +158,8 @@ resume_content =
 								"Delivered multiple projects as lead developer to great customer satisfaction.",
 								"Presented many seminars on areas of expertise including RegEx and Java Generics.",
 								"Earned a reputation and recognition for passion, knowledgeability, quality, and delivery.",
-								"Progressed from trainee to senior developer in record time."
+								"Progressed from trainee to senior developer in record time.",
+								"Performed countless technical interviews for entry- and mid-level developers."
 							]
 						}
 					]
@@ -201,6 +222,7 @@ resume_content =
 			]
 		}, //End Experience
 		{
+			"page_break": true,
 			"name": "Skills",
 			"subsections": 
 			[
@@ -221,25 +243,25 @@ resume_content =
 					[
 						"Most fluent in Java, JavaScript, and PHP.",
 						"Object-oriented design and UML diagramming.",
-						"Graphical rendering and interfaces.",
 						"Cross-browser web design and CSS layouts.",
-						"jQuery, Spring, Angular, XML, CSS, Swing UI, git, SQL, "
+						"jQuery, Spring, Angular, XML, CSS, Swing UI, git, SQL, unit testing/TDD"
 					]
 				},
 				{
-					"show": false,
+					"show": true,
 					"name": "Specializations",
 					"details": 
 					[
+						"Developer Training & Instruction",
 						"Regular Expressions",
 						"User interfaces, interaction, and communication",
 						"Object-oriented JavaScript",
-						"higher-order functional JavaScript"
+						"Higher-order functional JavaScript",
 						"Technical writing and documentation",
 						"Java Generics",
 						"Java Swing UI",
 						"High-maturity REST",
-						"git"
+						"git version control"
 					]
 				}					
 			]
@@ -277,7 +299,6 @@ resume_content =
 			]
 		}, //End Reading
 		{
-			"page_break": true,
 			"name": "Professional Projects",
 			"subsections":
 			[
@@ -381,7 +402,7 @@ resume_content =
 					"show": true,
 					"name": "Travelling Salesman",
 					"dates": "",
-					"location": "COSC xxx Artificial Intelligence"
+					"location": "COSC xxx Artificial Intelligence",
 					"details": 
 					[
 						"Web-based real-time data presentation for aluminum alloy production.",
