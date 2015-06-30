@@ -159,7 +159,8 @@ resume_content =
 								"Presented many seminars on areas of expertise including RegEx and Java Generics.",
 								"Earned a reputation and recognition for passion, knowledgeability, quality, and delivery.",
 								"Progressed from trainee to senior developer in record time.",
-								"Performed countless technical interviews for entry- and mid-level developers."
+								"Performed countless technical interviews for entry- and mid-level developers.",
+								"Took leadership of Arduino hobbyist group, both guiding and teaching new concepts"
 							]
 						}
 					]
@@ -233,7 +234,8 @@ resume_content =
 					[
 						"Over six years professional experience in software and technology support.",
 						"Consistently earned a reputation for resourcefulness, responsibility, and geniality.",
-						"Substantial teamwork experience both as leader and team member."
+						"Substantial teamwork experience both as leader and team member.",
+						"Passionate and effective teacher on a variety of technical topics."
 					]
 				},
 				{
@@ -294,6 +296,127 @@ resume_content =
 			]
 		}, //End Reading
 		{
+			"name": "Course Projects",
+			"show": true,
+			"subsections": 
+			[
+				{
+					"show": true,
+					"name": "Travelling Salesman",
+					"dates": "Fall 2014",
+					"location": "Artificial Intelligence",
+					"details": 
+					[
+						"Solved or approximated the notorious NP-hard TSP using a variety of algorithms and heuristics",
+						"Found optimal route for 22 nodes in class-record time using modified Branch-And-Bound",
+						"Achieved near-optimal tour using Simulated Annealing and Genetic Algorithm for 120 cities",
+						"Discovered novel data structures and methods for both memory and process management",
+						"Implemented in Java using Swing UI for visualization, metrics, and documentation",
+						"Independently explored several other heuristics such as Minimum Spanning Tree, Convex Hull, and Worst-Best Insertion"
+					]
+				},
+				{
+					"show": true,
+					"name": "Checkers",
+					"dates": "Fall 2014",
+					"location": "Artificial Intelligence",
+					"details": 
+					[
+						"A checkers-playing program!",
+						"Implemented in Java with Swing UI for user interaction.",
+						"Searched for optimal move using Negamax search with alpha-beta pruning",
+						"Tracked board state using space-efficient persistent data structure",
+						"Evaluated board state using seven discrete evaluators",
+						"Looked pretty cool doing it, too."
+					]
+				},
+				{
+					"show": false,
+					"name": "CastViewer",
+					"dates": "",
+					"location": "COSC 481W Software Engineering",
+					"focus": "Project Lead & Client Lead",
+					"details": 
+					[
+						"Web-based real-time data presentation for aluminum alloy production.",
+						"Implemented in REALbasic language using Real Studio Web Edition IDE & framework.",
+						"Demonstrated rigorous requirements, design, and testing.",
+						"Worked closely with the client to develop requirements and validate results at each stage."
+
+					]
+				},
+				{
+					"show": false,
+					"name": "Relation Analyzer",
+					"location": "COSC 314 Computational Discrete Structures",
+					"details": 
+					[
+						""
+					]
+				},
+				{
+					"show": false,
+					"name": "Year of the Zombie",
+					"location": "COSC 457 Computer Game Programming",
+					"focus": "Graphics & User Interface Developer",
+					"details": 
+					[
+						"An apocalyptic game featuring a hybrid of shooter and tower defense genres.",
+						"Implemented in Java using Eclipse IDE.",
+						"Practiced real-time user interaction, 2D modeling and rendering, and hardware acceleration."
+					]
+				}
+			]
+		}, //End Course Projects
+		{
+			"name": "Independent & Extracurricular Projects",
+			"page_break": true,
+			"show": true,
+			"subsections":
+			[
+				{
+					"show": true,
+					"name": "RoboCode",
+					"location": "SIM RoboCode tournament, AI Grad Research Project",
+					"dates": "Summer & Fall 2012, Fall 2014",
+					"details":
+					[
+						"A programming game battling virtual robots in all-out deathmatch.",
+						"Challenges the developer with limited control and sensory input.",
+						"Implemented exhaustive game state tracking for predictive attacking.",
+						"Researched, implemented, and presented on advanced techniques.",
+						"Applied AI concepts such as Hidden Markov Chains to RoboCode techniques.",
+					]
+				},
+				{
+					"show": true,
+					"name": "ReaLC3",
+					"location": "Advisor: Dr. William Sverdlik",
+					"focus": "Project Lead & Circuit Designer",
+					"details":
+					[
+						"Physical implementation of LC3 computer architecture using Transistor-Transistor Logic.",
+						"Implemented Arithmetic Logic Unit for the hypothetical LC3 architecture used for instruction in EMU Computer Science courses.",
+						"Built with hand-designed, hand-etched, and hand-soldered boards.",
+						"Presented at 2009 EMU Undergraduate Symposium."
+					]
+				},
+				{
+					"show": false,
+					"name": "GLIF.IDE",
+					"location": "Advisor: Dr. Susan Haynes",
+					"focus": "Development Lead for IDE Sub-Project",
+					"details": 
+					[
+						"A custom editor for the GLIF programming language, providing intuitive and easy manipulation of code for this unique pseudo-graphical, top-to-bottom language.",
+						"Implemented in Java using Eclipse IDE.",
+						"Developed to integrate with interpreter for contextual assistance and error checking.",
+						"Presented at 2010 EMU Undergraduate Symposium."
+					]
+				}
+			]
+		}, //End EC Projects
+		{
 			"name": "Professional Projects",
 			"subsections":
 			[
@@ -321,14 +444,14 @@ resume_content =
 						"A Rich front-end SPA to sign customers up for cable, broadband, etc.",
 						"Lead a of a team of 4 developers to rescue project from failing team.",
 						"Implemented in JavaScript using Angular",
-						"Rescued project from failing team, progressed transition from homebrew framework to Angular.",
+						"Progressed transition from homebrew framework to Angular.",
 						"Interacted with backend using REST maturity level 3.",
 						"Unit tested using Jasmine and with automated end-to-end functional testing.",
 						"Angular 1.3, Jasmine testing, git, jQuery, Uniform.js, JSLint/JSHint.",
 					]
 				},
 				{
-					"show": false,
+					"show": true,
 					"name": "Web Service Health Check Page",
 					"location": "Systems In Motion for Best Buy",
 					"dates": "",
@@ -341,7 +464,7 @@ resume_content =
 					]
 				},
 				{
-					"show": false,
+					"show": true,
 					"name": "Tech Support Subscriptions Site",
 					"location": "Systems In Motion for Best Buy",
 					"dates": "",
@@ -412,123 +535,6 @@ resume_content =
 					]
 				}
 			]
-		}, //End Professional Projects
-		{
-			"name": "Course Projects",
-			"page_break": true,
-			"show": true,
-			"subsections": 
-			[
-				{
-					"show": true,
-					"name": "Travelling Salesman",
-					"dates": "Fall 2014",
-					"location": "Artificial Intelligence",
-					"details": 
-					[
-						"Solved or approximated the notorious NP-hard TSP using a variety of algorithms and heuristics",
-						"Found optimal route for 22 nodes in class-record time using modified Branch-And-Bound",
-						"Achieved near-optimal tour using Simulated Annealing and Genetic Algorithm on 120 node graph",
-						"Discovered new and unique methods and created novel data structures for both memory and process management",
-						"Implemented in Java using Swing UI for visualization and documentation",
-						"Independently explored several other heuristics such as Minimum Spanning Tree, Convex Hull, and Worst-Best Insertion"
-					]
-				},
-				{
-					"show": true,
-					"name": "Checkers",
-					"dates": "Fall 2014",
-					"location": "Artificial Intelligence",
-					"details": 
-					[
-						"A program that plays checkers!",
-						"Implemented in REALbasic language using Real Studio Web Edition IDE & framework."
-
-					]
-				},
-				{
-					"show": false,
-					"name": "CastViewer",
-					"dates": "",
-					"location": "COSC 481W Software Engineering",
-					"focus": "Project Lead & Client Lead",
-					"details": 
-					[
-						"Web-based real-time data presentation for aluminum alloy production.",
-						"Implemented in REALbasic language using Real Studio Web Edition IDE & framework.",
-						"Demonstrated rigorous requirements, design, and testing.",
-						"Worked closely with the client to develop requirements and validate results at each stage."
-
-					]
-				},
-				{
-					"show": false,
-					"name": "Relation Analyzer",
-					"location": "COSC 314 Computational Discrete Structures",
-					"details": 
-					[
-						""
-					]
-				},
-				{
-					"show": false,
-					"name": "Year of the Zombie",
-					"location": "COSC 457 Computer Game Programming",
-					"focus": "Graphics & User Interface Developer",
-					"details": 
-					[
-						"An apocalyptic game featuring a hybrid of shooter and tower defense genres.",
-						"Implemented in Java using Eclipse IDE.",
-						"Practiced real-time user interaction, 2D modeling and rendering, and hardware acceleration."
-					]
-				}
-			]
-		}, //End Course Projects
-		{
-			"name": "Extracurricular Projects",
-			"show": true,
-			"subsections":
-			[
-				{
-					"show": true,
-					"name": "RoboCode",
-					"location": "Advisor: Dr. William Sverdlik",
-					"focus": "Project Lead & Circuit Designer",
-					"details":
-					[
-						"Physical implementation of LC3 computer architecture using Transistor-Transistor Logic.",
-						"Implemented Arithmetic Logic Unit for the hypothetical LC3 architecture used for instruction in EMU Computer Science courses.",
-						"Built with hand-designed, hand-etched, and hand-soldered boards.",
-						"Presented at 2009 EMU Undergraduate Symposium."
-					]
-				},
-				{
-					"show": true,
-					"name": "ReaLC3",
-					"location": "Advisor: Dr. William Sverdlik",
-					"focus": "Project Lead & Circuit Designer",
-					"details":
-					[
-						"Physical implementation of LC3 computer architecture using Transistor-Transistor Logic.",
-						"Implemented Arithmetic Logic Unit for the hypothetical LC3 architecture used for instruction in EMU Computer Science courses.",
-						"Built with hand-designed, hand-etched, and hand-soldered boards.",
-						"Presented at 2009 EMU Undergraduate Symposium."
-					]
-				},
-				{
-					"show": true,
-					"name": "GLIF.IDE",
-					"location": "Advisor: Dr. Susan Haynes",
-					"focus": "Development Lead for IDE Sub-Project",
-					"details": 
-					[
-						"A custom editor for the GLIF programming language, providing intuitive and easy manipulation of code for this unique pseudo-graphical, top-to-bottom language.",
-						"Implemented in Java using Eclipse IDE.",
-						"Developed to integrate with interpreter for contextual assistance and error checking.",
-						"Presented at 2010 EMU Undergraduate Symposium."
-					]
-				}
-			]
-		} //End EC Projects
+		}//End Professional Projects
 	]//End Sections
 };//End Resume Data
