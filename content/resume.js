@@ -120,7 +120,7 @@ resume_content =
 			[
 				{
 					"show": true,
-					"name": "Nexient <i>(formerly </i>Systems In Motion<i>)</i>",
+					"name": "Nexient <i>(formerly Systems In Motion)</i>",
 					"dates": "July 2011 - Present",
 					"address": "3891 Ranchero Dr. Ann Arbor, MI 48108",
 					"location": "Ann Arbor, MI",
@@ -254,12 +254,7 @@ resume_content =
 					[
 						"Developer Training & Instruction",
 						"Regular Expressions",
-						"User interfaces, interaction, and communication",
-						"Object-oriented JavaScript",
-						"Higher-order functional JavaScript",
-						"Technical writing and documentation",
-						"Java Generics",
-						"Java Swing UI",
+						"Object-oriented and Higher-order functional JavaScript",
 						"High-maturity REST",
 						"git version control"
 					]
@@ -285,15 +280,15 @@ resume_content =
 							"heading": "Design Patterns<span class='note'>the &quot;Gang of Four&quot;, Gamma, Helm, Johnson, Vlissides</span>"
 						},
 						{
+							"heading": "JavaScript: The Good Parts<span class='note'>Douglas Crockford</span>",
+						},
+						{
 							"heading": "The Art of Computer Programming, Vol. 1<span class='note'>Donald E. Knuth</span>",
 							"details": 
 								[
 									"I'll finish it someday!"
 								]
-						},
-						{
-							"heading": "JavaScript: The Good Parts<span class='note'>Douglas Crockford</span>",
-						},
+						}
 					]
 				}					
 			]
@@ -304,7 +299,23 @@ resume_content =
 			[
 				{
 					"show": true,
+					"name": "Carrier Plan Catalog",
+					"location": "Systems In Motion for Best Buy",
+					"dates": "",
+					"details":
+					[
+						"A user-friendly configuration and data service for cable & satellite carriers.",
+						"Led the transition from outside project to entirely internal project.",
+						"Implemented with Java Spring / Hibernate backend with Oracle database.",
+						"Front end implemented with homebrew Javascript framework and jQuery.",
+						"Trained new team of developers for ongoing development post-transition."
+					]
+				},
+				{
+					"show": true,
 					"name": "Connection Signup Tool Front-End",
+					"location": "Systems In Motion for Best Buy",
+					"dates": "",
 					"details":
 					[
 						"A Rich front-end SPA to sign customers up for cable, broadband, etc.",
@@ -319,6 +330,8 @@ resume_content =
 				{
 					"show": false,
 					"name": "Web Service Health Check Page",
+					"location": "Systems In Motion for Best Buy",
+					"dates": "",
 					"details":
 					[
 						"A powerful but easy-to-use site to verify the stability and integrity of multiple web services.",
@@ -328,8 +341,10 @@ resume_content =
 					]
 				},
 				{
-					"show": true,
+					"show": false,
 					"name": "Tech Support Subscriptions Site",
+					"location": "Systems In Motion for Best Buy",
+					"dates": "",
 					"details":
 					[
 						"A multi-mode data-driven site for purchasing new subscription services.",
@@ -340,6 +355,8 @@ resume_content =
 				{
 					"show": true,
 					"name": "Subscription Services Bundling Site",
+					"location": "Systems In Motion for Best Buy",
+					"dates": "",
 					"details":
 					[
 						"A modern, customer-friendly site to renew multiple subscriptions with one click.",
@@ -349,8 +366,10 @@ resume_content =
 					]
 				},
 				{
-					"show": true,
+					"show": false,
 					"name": "Best Buy Connect eCommerce Site",
+					"location": "Systems In Motion for Best Buy",
+					"dates": "",
 					"details":
 					[
 						"A LAMP stack eCommerce site for purchasing wireless devices.",
@@ -396,22 +415,39 @@ resume_content =
 		}, //End Professional Projects
 		{
 			"name": "Course Projects",
+			"page_break": true,
+			"show": true,
 			"subsections": 
 			[
 				{
 					"show": true,
 					"name": "Travelling Salesman",
-					"dates": "",
-					"location": "COSC xxx Artificial Intelligence",
+					"dates": "Fall 2014",
+					"location": "Artificial Intelligence",
 					"details": 
 					[
-						"Web-based real-time data presentation for aluminum alloy production.",
+						"Solved or approximated the notorious NP-hard TSP using a variety of algorithms and heuristics",
+						"Found optimal route for 22 nodes in class-record time using modified Branch-And-Bound",
+						"Achieved near-optimal tour using Simulated Annealing and Genetic Algorithm on 120 node graph",
+						"Discovered new and unique methods and created novel data structures for both memory and process management",
+						"Implemented in Java using Swing UI for visualization and documentation",
+						"Independently explored several other heuristics such as Minimum Spanning Tree, Convex Hull, and Worst-Best Insertion"
+					]
+				},
+				{
+					"show": true,
+					"name": "Checkers",
+					"dates": "Fall 2014",
+					"location": "Artificial Intelligence",
+					"details": 
+					[
+						"A program that plays checkers!",
 						"Implemented in REALbasic language using Real Studio Web Edition IDE & framework."
 
 					]
 				},
 				{
-					"show": true,
+					"show": false,
 					"name": "CastViewer",
 					"dates": "",
 					"location": "COSC 481W Software Engineering",
@@ -450,8 +486,22 @@ resume_content =
 		}, //End Course Projects
 		{
 			"name": "Extracurricular Projects",
+			"show": true,
 			"subsections":
 			[
+				{
+					"show": true,
+					"name": "RoboCode",
+					"location": "Advisor: Dr. William Sverdlik",
+					"focus": "Project Lead & Circuit Designer",
+					"details":
+					[
+						"Physical implementation of LC3 computer architecture using Transistor-Transistor Logic.",
+						"Implemented Arithmetic Logic Unit for the hypothetical LC3 architecture used for instruction in EMU Computer Science courses.",
+						"Built with hand-designed, hand-etched, and hand-soldered boards.",
+						"Presented at 2009 EMU Undergraduate Symposium."
+					]
+				},
 				{
 					"show": true,
 					"name": "ReaLC3",

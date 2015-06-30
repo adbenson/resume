@@ -51,8 +51,7 @@ div.header {
 
 div.header.small {
 	position: absolute;
-	top: +11.25in;
-		left: +0.5in;
+	left: +0.5in;
 	width: 7.5in;
 
 }
@@ -61,6 +60,12 @@ div.header.small .address {
 }
 div.header.small .location {
 	display: none;
+}
+#pg2 div.header.small {
+	top: +11.25in;
+}
+#pg3 div.header.small {
+	top: +22.25in;
 }
 
 div.header .name {
